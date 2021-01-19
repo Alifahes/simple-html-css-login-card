@@ -39,8 +39,20 @@ label{
 }
 input:focus + label,input:valid + label {
     bottom: 21px;
-    
 
+}
+input:focus + label{
+    color: brown;
+    
+}
+input:invalid + label{
+
+    bottom:21px ;
+    
+}
+
+input:invalid{
+    color: crimson;
 }
 
 
