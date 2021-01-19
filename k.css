@@ -1,0 +1,77 @@
+.sign {
+    padding-left: 39px;
+    color: white;
+    width: 32%;
+    font-family: 'Potta One', cursive;
+    position: relative;
+    top: 142px;
+    /* background: bisque; */
+    box-shadow: 1px 1px 12px darkgrey;
+    height: 65%;
+    left: 484px;
+}
+input {
+    border: none;
+    border-bottom: 1px solid slategray;
+    outline: none;
+    font-family: 'Potta One', cursive;
+    width: 352px;
+    font-size: 16px;
+    background-color: transparent;
+    
+    font-weight: 900;
+    color: white;
+}
+.r{
+    width: 100%;
+    height: 100%;
+}
+.pa{
+    padding-top: 16px;
+
+}
+
+label{
+    
+    position: relative;
+    right: 356px;
+
+}
+input:focus + label,input:valid + label {
+    bottom: 21px;
+
+}
+input:focus + label{
+    color: brown;
+    
+}
+input:invalid + label{
+
+    bottom:21px ;
+    
+}
+
+
+
+.con{
+    
+        width: 100%;
+        height: 100%;
+        /* padding: 78px; */
+        background: khaki;
+    
+}
+
+.e {
+    padding-top: 133px;
+    position: relative;
+    right: -24px;
+}
+
+.l{
+    font-size: 38px;
+    position: relative;
+    left: -42px;
+    top: 26px;
+    width: 34px;
+}
